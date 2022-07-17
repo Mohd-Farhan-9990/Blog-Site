@@ -1,4 +1,4 @@
-const blogModel = require("../models/blogModel")
+const blogModel = require("../src/models/blogModel")
 const { default: mongoose, isValidObjectId } = require("mongoose")
 const moment = require('moment');
 const jwt = require('jsonwebtoken')

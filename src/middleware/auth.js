@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken')
-const authorModel = require("../models/authorModel")
+const authorModel = require("../src/models/authorModel")
 const authorController = require("../controllers/authorController");
-const blogModel = require('../models/blogModel');
+const blogModel = require('../src/models/blogModel');
 const { isValidObjectId } = require('mongoose');
 
 
